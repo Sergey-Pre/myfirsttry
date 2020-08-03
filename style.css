@@ -30,6 +30,14 @@ input [type="radio"].visually-hidden {
 }
 
 @media (max-width:320px) {
+  .maintopic {
+    min-height: 158px;
+    background-image: url('min.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
   .maintopic-delivery {
     padding: 20px 25px;
   }
