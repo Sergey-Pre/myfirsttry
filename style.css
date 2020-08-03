@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "PT sans", "Arial", sans-serif;
+
+  color: #ffffff;
+  background: black;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input [type="checkbox"].visually-hidden,
+input [type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset (100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 100%;
+}
+.maintopic {
+  min-height: 440px;
+  background-image: url('../img/med.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  color: rgb(255, 248, 224);
+  font-size: 35px;
+
+}
+
+.maintopic p {
+  padding-top: 10px;
+  font-family: cursive;
+}
+
+.features {
+  margin-bottom: 35px;
+
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.feature-item {
+  width: 300px;
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.information {
+  height: 250px;
+
+  background-color: rgb(255, 248, 224);;
+
+  color: #242424;
+
+  text-align: center;
+
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  min-height: 350px;
+
+}
+
+/*.container {
+  width: 940px;
+
+  margin: 0 auto;
+  padding: 0 auto;
+}*/
