@@ -124,7 +124,7 @@ img {
 
   .maintopic-widh-320 {
     min-height: 158px;
-    background-image: url('min.jpg');
+    background-image: url('BG_IMG375.jpg');
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -134,7 +134,7 @@ img {
   }
 
   .maintopic-delivery {
-    width: 150px;
+    width: 200px;
   }
 
 }
